@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+.login{
+   height: 100vh;
+   background: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")center;
+    background-size: cover;
+   background-color: #f0f4f8;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+   .card{
+    width: 50%;
+    display: flex;
+   
+    background-color: white;
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+       .left{
+        flex: 1;
+        background:linear-gradient(rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5)), url("https://images.pexels.com/photos/20805380/pexels-photo-20805380/free-photo-of-close-up-of-raised-hands-of-a-woman-against-a-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+        // https://images.pexels.com/photos/4207776/pexels-photo-4207776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+       background-size: cover;
+       padding:50px;
+       display: flex;
+       flex-direction: column;
+       gap:30px;
+       color:#333333;
+        h1{
+            font-size: 100px;
+            line-height: 100px;
+        }
+            p{
+                font-size: 18px;
+                font-weight:bold;
+            }
+            span{
+                font-size: 16px; 
+                color:red;
+            }
+            button {
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: gold;
+                border-radius: 10px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+        
+                &:hover {
+                  background-color: gold;
+                  color: white;
+                }
+              }
+    }
+    .right{
+        flex: 1;
+        padding:50px;
+       display: flex;
+       flex-direction: column;
+       gap:50px;
+       justify-content: center;
+       color: red;
+        h1{
+            color: #555;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+
+            input{
+                border:none;
+                border-bottom: 1px solid lightgray;
+                padding : 20px 10px;
+            }
+            button{
+                width: 50%;
+                padding :  10px;
+                border: none;
+                background-color: #938eef;
+                transition: background-color 0.3s, color 0.3s; 
+                color:white;
+
+                &:hover {
+                    background-color: #e28eef;
+                    color: gold;
+                  }
+                
+                }
+            }
+        }
+    }
+    }

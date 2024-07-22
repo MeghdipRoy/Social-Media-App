@@ -1,0 +1,97 @@
+        // https://images.pexels.com/photos/4207776/pexels-photo-4207776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+        .register{
+            height: 100vh;
+            background: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")center;
+             background-size: cover;
+            background-color: #f0f4f8;
+            display: flex;
+             align-items: center;
+             justify-content: center;
+            .card{
+             width: 50%;
+             display: flex;
+             flex-direction: row-reverse;
+             background-color: white;
+             border-radius: 10px;
+             min-height: 600px;
+             overflow: hidden;
+                .left{
+                 flex: 1;
+                 background:linear-gradient(rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5)), url("https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/TGBCMS/iy1ex3cookmf9cme5qlnxa.jpg") ;
+                background-size: cover;
+                padding:50px;
+                display: flex;
+                flex-direction: column;
+                gap:30px;
+                color: #FFFFE0;
+                 h1{
+                     font-size: 100px;
+                     line-height: 100px;
+                 }
+                     p{
+                         font-size: 29px;
+                         font-weight:bold;
+                         color: #e0fbff;
+                     }
+                     span{
+                         font-size: 16px; 
+                         color:red;
+                     }
+                     button {
+                         width: 50%;
+                         padding: 10px;
+                         border: none;
+                         background-color: white;
+                         color: gold;
+                         border-radius: 10px;
+                         font-weight: bold;
+                         cursor: pointer;
+                         transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+                 
+                         &:hover {
+                           background-color: gold;
+                           color: white;
+                         }
+                       }
+             }
+             .right{
+                 flex: 1;
+                 padding:50px;
+                display: flex;
+                flex-direction: column;
+                gap:50px;
+                justify-content: center;
+                color: red;
+                 h1{
+                     color: #555;
+                 }
+                 form{
+                     display: flex;
+                     flex-direction: column;
+                     gap:30px;
+         
+                     input{
+                         border:none;
+                         border-bottom: 1px solid lightgray;
+                         padding : 20px 10px;
+                     }
+                     button{
+                         width: 50%;
+                         padding :  10px;
+                         border: none;
+                         background-color: #938eef;
+                         transition: background-color 0.3s, color 0.3s; 
+                         color:white;
+         
+                         &:hover {
+                             background-color: #e28eef;
+                             color: gold;
+                           }
+                         
+                         }
+                     }
+                 }
+             }
+             }
+         
